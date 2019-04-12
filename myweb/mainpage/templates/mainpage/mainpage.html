@@ -1,0 +1,21 @@
+{% extends 'mainpage/base.html' %}
+
+{% block mainpage %}
+{% load static %}
+
+<nav class="nowrap navbar navbar-light sticky-top" style="background-color: #e3f2fd;">
+    <a href="#"><img src="{% static "mainpage/images/home_logo.jpg" %}" class="home__logo" /></a>
+    <a class="navbar-brand navbar-brand__font" href="#">Trang chủ</a>
+    <a class="navbar-brand" href="#">Tải game</a>
+    <a class="navbar-brand" href="#">Đăng ký</a>
+    <a class="navbar-brand" href="#">Thông tin</a>
+    <a class="navbar-brand" href="#">Hỗ trợ</a>
+    <a class="navbar-brand" href="#">Tin tức</a>
+    <a class="navbar-brand" href="#">Diễn đàn</a>
+    <a class="navbar-brand" href="#">Wiki</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+{% endblock %}
